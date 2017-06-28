@@ -8,6 +8,7 @@ class Ship
     @name = name
     @type = type
     @booty = booty
+    self.class.all << self
   end
 
   def self.all
